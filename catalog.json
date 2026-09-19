@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-09-19T02:02:04Z",
+  "updated_at": "2026-09-19T02:14:54Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
@@ -54,6 +54,106 @@
       "version": "1.23.15723",
       "published_at": "2023-06-06T22:50:35.804739+00:00",
       "install_command": "sudo snap install --channel=stable antsy-alien-attack-pico"
+    },
+    {
+      "name": "supertux",
+      "title": "SuperTux",
+      "summary": "SuperTux is a open-source classic 2D jump'n run sidescroller game in a style similar to the original Super Mario games",
+      "description": "SuperTux is a jump'n'run game with strong inspiration from the Super Mario Bros. games for the various Nintendo platforms.\n\nRun and jump through multiple worlds, fighting off enemies by jumping on them, bumping them from below or tossing objects at them, grabbing power-ups and other stuff on the way.\n\nIn addition to the Story Mode, there is a large amount of community contributed levels available as add-ons or in the forums. Everyone can contribute such content by using the integrated level editor.",
+      "license": "GPL-3.0",
+      "confinement": "strict",
+      "categories": [
+        "games",
+        "platformer",
+        "arcade"
+      ],
+      "icon": "assets/supertux/icon.png",
+      "screenshots": [
+        {
+          "path": "assets/supertux/screenshots/shot_1.png",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/supertux/screenshots/shot_1.png"
+        },
+        {
+          "path": "assets/supertux/screenshots/shot_2.png",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/supertux/screenshots/shot_2.png"
+        },
+        {
+          "path": "assets/supertux/screenshots/shot_3.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/supertux/screenshots/shot_3.jpg"
+        },
+        {
+          "path": "assets/supertux/screenshots/shot_4.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/supertux/screenshots/shot_4.jpg"
+        },
+        {
+          "path": "assets/supertux/screenshots/shot_5.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/supertux/screenshots/shot_5.jpg"
+        }
+      ],
+      "links": {
+        "website": "https://www.supertux.org/",
+        "source_code": "https://github.com/SuperTux/supertux",
+        "store_page": "https://snapcraft.io/supertux"
+      },
+      "publisher": "Lothar Serra Mari",
+      "channel": "stable",
+      "install_flags": [],
+      "interfaces_to_connect": [
+        "wayland",
+        "joystick"
+      ],
+      "removable": true,
+      "builtin": false,
+      "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/supertux/icon.png",
+      "version": "0.6.3",
+      "published_at": "2022-02-14T21:54:05.177715+00:00",
+      "install_command": "sudo snap install --channel=stable supertux"
+    },
+    {
+      "name": "supertuxkart",
+      "title": "SuperTuxKart",
+      "summary": "A 3D arcade racer with a variety of characters, tracks, and modes to play",
+      "description": "Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a variety of characters, tracks, and modes to play. Our aim is to create a game that is more fun than realistic, and provide an enjoyable experience for all ages.\n\nDiscover the mystery of an underwater world, or drive through the jungles of Val Verde and visit the famous Cocoa Temple. Race underground or in a spaceship, through a rural farmland or a strange alien planet. Or rest under the palm trees on the beach, watching the other karts overtake you. But don't eat the bananas! Watch for bowling balls, plungers, bubble gum, and cakes thrown by your opponents.\n\nYou can do a single race against other karts, compete in one of several Grand Prix, try to beat the high score in time trials on your own, play battle mode against the computer or your friends, and more! For a greater challenge, race online against players from all over the world and prove your racing prowess!",
+      "license": "GPL-3.0+",
+      "confinement": "strict",
+      "categories": [
+        "games",
+        "racing",
+        "arcade"
+      ],
+      "icon": "assets/supertuxkart/icon.png",
+      "screenshots": [
+        {
+          "path": "assets/supertuxkart/screenshots/shot_1.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/supertuxkart/screenshots/shot_1.jpg"
+        },
+        {
+          "path": "assets/supertuxkart/screenshots/shot_2.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/supertuxkart/screenshots/shot_2.jpg"
+        },
+        {
+          "path": "assets/supertuxkart/screenshots/shot_3.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/supertuxkart/screenshots/shot_3.jpg"
+        }
+      ],
+      "links": {
+        "website": "https://supertuxkart.net/",
+        "source_code": "https://github.com/supertuxkart/stk-code",
+        "store_page": "https://snapcraft.io/supertuxkart"
+      },
+      "publisher": "Lucy Llewellyn",
+      "channel": "stable",
+      "install_flags": [],
+      "interfaces_to_connect": [
+        "wayland",
+        "joystick"
+      ],
+      "removable": true,
+      "builtin": false,
+      "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/supertuxkart/icon.png",
+      "version": "1.5",
+      "published_at": "2025-12-03T15:13:42.727485+00:00",
+      "install_command": "sudo snap install --channel=stable supertuxkart"
     }
   ]
 }

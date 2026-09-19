@@ -1,0 +1,35 @@
+{
+  "name": "supertux",
+  "title": "SuperTux",
+  "summary": "SuperTux is a open-source classic 2D jump'n run sidescroller game in a style similar to the original Super Mario games",
+  "description": "SuperTux is a jump'n'run game with strong inspiration from the Super Mario Bros. games for the various Nintendo platforms.\n\nRun and jump through multiple worlds, fighting off enemies by jumping on them, bumping them from below or tossing objects at them, grabbing power-ups and other stuff on the way.\n\nIn addition to the Story Mode, there is a large amount of community contributed levels available as add-ons or in the forums. Everyone can contribute such content by using the integrated level editor.",
+  "license": "GPL-3.0",
+  "confinement": "strict",
+  "categories": [
+    "games",
+    "platformer",
+    "arcade"
+  ],
+  "icon": "assets/supertux/icon.png",
+  "screenshots": [
+    { "path": "assets/supertux/screenshots/shot_1.png" },
+    { "path": "assets/supertux/screenshots/shot_2.png" },
+    { "path": "assets/supertux/screenshots/shot_3.jpg" },
+    { "path": "assets/supertux/screenshots/shot_4.jpg" },
+    { "path": "assets/supertux/screenshots/shot_5.jpg" }
+  ],
+  "links": {
+    "website": "https://www.supertux.org/",
+    "source_code": "https://github.com/SuperTux/supertux",
+    "store_page": "https://snapcraft.io/supertux"
+  },
+  "publisher": "Lothar Serra Mari",
+  "channel": "stable",
+  "install_flags": [],
+  "interfaces_to_connect": [
+    "wayland",
+    "joystick"
+  ],
+  "removable": true,
+  "builtin": false
+}
