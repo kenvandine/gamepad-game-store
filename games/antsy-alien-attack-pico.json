@@ -1,0 +1,34 @@
+{
+  "name": "antsy-alien-attack-pico",
+  "title": "Antsy Alien Attack Pico",
+  "summary": "A retro-style vertically scrolling shoot 'em up",
+  "description": "The year is 2139. Planet Earth is under attack by aliens, and they're (still) antsy!\n\nYou're a mercenary with a state-of-the-art space fighter and a gun for hire. The United Federation of Planet Earth has hired you to dispatch the aliens and restore calm. Complete every mission to fulfil your contract and earn your pay.\n\nOne ship. One life. One mission. Destroy aliens by shooting or colliding with them, or avoid them if you can't destroy them. Collect power-ups to enhance your weapons and charge the ship dynamo - a fully charged dynamo boosts your shields by 50%, but weapons go offline when travelling at hyperspeed. When your ship health is depleted, you're lost to the vacuum of space.\n\nAntsy Alien Attack Pico works with most game controllers - move with the d-pad or left stick, A or B to fire. It is a \"sequel\" to Antsy Alien Attack, developed during Linux Game Jam 2023 using PICO-8.",
+  "license": "CC-BY-NC-SA-4.0 OR MIT",
+  "confinement": "strict",
+  "categories": [
+    "games",
+    "arcade",
+    "shooter"
+  ],
+  "icon": "assets/antsy-alien-attack-pico/icon.png",
+  "screenshots": [
+    { "path": "assets/antsy-alien-attack-pico/screenshots/main_1.png" },
+    { "path": "assets/antsy-alien-attack-pico/screenshots/main_3.png" },
+    { "path": "assets/antsy-alien-attack-pico/screenshots/main_4.png" },
+    { "path": "assets/antsy-alien-attack-pico/screenshots/main_75.png" }
+  ],
+  "links": {
+    "website": "https://wimpress.itch.io/antsy-alien-attack-pico",
+    "source_code": "https://github.com/wimpysworld/antsy-alien-attack-pico",
+    "store_page": "https://snapcraft.io/antsy-alien-attack-pico"
+  },
+  "publisher": "Martin Wimpress",
+  "channel": "stable",
+  "install_flags": [],
+  "interfaces_to_connect": [
+    "wayland",
+    "joystick"
+  ],
+  "removable": true,
+  "builtin": false
+}

@@ -1,0 +1,45 @@
+name: Update catalog
+
+# Refresh catalog.json daily and whenever game metadata or icons change.
+# Queries the Snap Store's public API for each game's current stable
+# version/confinement.
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'games/**'
+      - 'assets/**'
+      - 'scripts/**'
+      - '.github/workflows/update.yaml'
+  workflow_dispatch:
+
+concurrency:
+  group: update-catalog
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Regenerate catalog.json
+        run: python3 scripts/update-catalog.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          if git diff --cached --quiet; then
+            echo "catalog.json is up to date"
+          else
+            git commit -m "chore: update catalog.json"
+            git push
+          fi
