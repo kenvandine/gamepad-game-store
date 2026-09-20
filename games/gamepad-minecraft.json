@@ -1,0 +1,35 @@
+{
+  "name": "gamepad-minecraft",
+  "title": "Minecraft - Gamepad",
+  "summary": "A controller-friendly Minecraft Java launcher for handhelds",
+  "description": "Play Minecraft Java Edition entirely with a gamepad - no keyboard or mouse required. Built for handheld gaming PCs like the Lenovo Legion Go S and MSI Claw, gamepad-minecraft lets you sign in once with your Microsoft account using a simple on-screen QR code, then play offline afterward with your saved profile. It also sets up your game so that Minecraft's own menus and title screen are fully navigable with a controller, not just the launcher itself.\n\nMinecraft Java Edition itself is not included with this app - the first launch downloads it directly from Mojang, the same as the official launcher.",
+  "license": "GPL-3.0",
+  "confinement": "strict",
+  "categories": [
+    "games",
+    "sandbox",
+    "adventure"
+  ],
+  "icon": "assets/gamepad-minecraft/icon.png",
+  "screenshots": [
+    { "path": "assets/gamepad-minecraft/screenshots/shot_1.png" },
+    { "path": "assets/gamepad-minecraft/screenshots/shot_2.png" },
+    { "path": "assets/gamepad-minecraft/screenshots/shot_3.png" },
+    { "path": "assets/gamepad-minecraft/screenshots/shot_4.png" },
+    { "path": "assets/gamepad-minecraft/screenshots/shot_5.png" }
+  ],
+  "links": {
+    "website": "https://github.com/kenvandine/gamepad-minecraft",
+    "source_code": "https://github.com/kenvandine/gamepad-minecraft",
+    "store_page": "https://snapcraft.io/gamepad-minecraft"
+  },
+  "publisher": "Ken VanDine",
+  "channel": "stable",
+  "install_flags": [],
+  "interfaces_to_connect": [
+    "wayland",
+    "joystick"
+  ],
+  "removable": true,
+  "builtin": false
+}

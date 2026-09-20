@@ -26,6 +26,7 @@ from the Snap Store's public API.
 | Snap | Title | License |
 |------|-------|---------|
 | `antsy-alien-attack-pico` | Antsy Alien Attack Pico | CC-BY-NC-SA-4.0 OR MIT |
+| `gamepad-minecraft` | Minecraft - Gamepad | GPL-3.0 |
 | `supertux` | SuperTux | GPL-3.0 |
 | `supertuxkart` | SuperTuxKart | GPL-3.0+ |
 
