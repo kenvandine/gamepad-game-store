@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-09-20T18:30:03Z",
+  "updated_at": "2026-09-20T18:37:58Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
@@ -54,6 +54,47 @@
       "version": "1.23.15723",
       "published_at": "2023-06-06T22:50:35.804739+00:00",
       "install_command": "sudo snap install --channel=stable antsy-alien-attack-pico"
+    },
+    {
+      "name": "gamepad-2048",
+      "title": "2048 - Gamepad",
+      "summary": "A beautiful 2048 game, tuned for game controllers",
+      "description": "gamepad-2048 is a fun, full-featured take on the classic 2048 sliding-tile puzzle, written in Rust and GTK4. It borrows its colour palette and visual language from gamepad-shell, making it a natural fit as a bundled example game for that shell, while still being perfectly playable with a keyboard on a regular desktop.\n\nFeatures:\n- 3x3, 4x4, 5x5 and 6x6 board sizes, each with its own win target\n- Full game-controller support (D-pad and left stick to move, A/Start to confirm, B/Select to go back) alongside keyboard controls\n- Persistent high-score tracking per board size\n- A slick, animated UI styled after the Ubuntu \"Resolute Raccoon\" gamepad-shell theme",
+      "license": "GPL-3.0",
+      "confinement": "strict",
+      "categories": [
+        "games",
+        "puzzle"
+      ],
+      "icon": "assets/gamepad-2048/icon.png",
+      "screenshots": [
+        {
+          "path": "assets/gamepad-2048/screenshots/shot_1.png",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/gamepad-2048/screenshots/shot_1.png"
+        },
+        {
+          "path": "assets/gamepad-2048/screenshots/shot_2.png",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/gamepad-2048/screenshots/shot_2.png"
+        }
+      ],
+      "links": {
+        "website": "https://github.com/kenvandine/gamepad-2048",
+        "source_code": "https://github.com/kenvandine/gamepad-2048",
+        "store_page": "https://snapcraft.io/gamepad-2048"
+      },
+      "publisher": "Ken VanDine",
+      "channel": "stable",
+      "install_flags": [],
+      "interfaces_to_connect": [
+        "wayland",
+        "joystick"
+      ],
+      "removable": true,
+      "builtin": false,
+      "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/gamepad-2048/icon.png",
+      "version": "0.1.0",
+      "published_at": "2026-09-20T18:32:33.591365+00:00",
+      "install_command": "sudo snap install --channel=stable gamepad-2048"
     },
     {
       "name": "gamepad-minecraft",
