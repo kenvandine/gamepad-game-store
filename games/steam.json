@@ -1,0 +1,33 @@
+{
+  "name": "steam",
+  "title": "Steam",
+  "summary": "Launcher for the Steam software distribution service",
+  "description": "Steam is a software distribution service with an online store, automated installation, automatic updates, achievements, SteamCloud synchronized savegame and screenshot functionality, and many social features.\n\nThis package is maintained by Canonical and not officially supported by Valve. Please report any issues through the contact or website links.",
+  "license": "Proprietary",
+  "confinement": "strict",
+  "categories": [
+    "games",
+    "launcher"
+  ],
+  "icon": "assets/steam/icon.png",
+  "screenshots": [
+    { "path": "assets/steam/screenshots/shot_1.png" },
+    { "path": "assets/steam/screenshots/shot_2.png" },
+    { "path": "assets/steam/screenshots/shot_3.png" },
+    { "path": "assets/steam/screenshots/shot_4.png" }
+  ],
+  "links": {
+    "website": "https://github.com/canonical/steam-snap",
+    "source_code": "https://github.com/canonical/steam-snap",
+    "store_page": "https://snapcraft.io/steam"
+  },
+  "publisher": "Canonical",
+  "channel": "stable",
+  "install_flags": [],
+  "interfaces_to_connect": [
+    "wayland",
+    "joystick"
+  ],
+  "removable": true,
+  "builtin": false
+}
