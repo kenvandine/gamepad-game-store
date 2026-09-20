@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-09-19T11:48:24Z",
+  "updated_at": "2026-09-20T12:02:23Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
