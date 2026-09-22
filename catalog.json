@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-09-21T13:39:57Z",
+  "updated_at": "2026-09-22T12:23:09Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
@@ -146,8 +146,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/gamepad-minecraft/icon.png",
-      "version": "0.1.0",
-      "published_at": "2026-09-20T13:26:15.893254+00:00",
+      "version": "0.2.0",
+      "published_at": "2026-09-21T18:44:59.913888+00:00",
       "install_command": "sudo snap install --channel=stable gamepad-minecraft"
     },
     {
