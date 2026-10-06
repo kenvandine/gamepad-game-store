@@ -1,0 +1,32 @@
+{
+  "name": "graveyard-hollow",
+  "title": "Graveyard Hollow",
+  "summary": "Keep the village lanterns lit until dawn while a friend blows them out.",
+  "description": "Graveyard Hollow is a social deduction party game for 4 to 10 players. At night the villagers keep the lanterns burning and finish their chores, while one or two secret Hollow snuff the lights and take villagers in the dark. Find a friend's empty lantern, ring the bell, argue it out, and vote.\n\n- Play on your local network, each on your own device, or online through a LinuxGroove game server\n- Fill empty seats with bots; with enough memory they think and talk in meetings using a small language model that runs on your own machine (embedded Lemonade Server, downloaded on first use)\n- Made for controllers and handhelds, fully playable with a keyboard",
+  "license": "Apache-2.0 AND CC0-1.0 AND MIT",
+  "confinement": "strict",
+  "categories": [
+    "games",
+    "party",
+    "multiplayer"
+  ],
+  "icon": "assets/graveyard-hollow/icon.png",
+  "screenshots": [
+    { "path": "assets/graveyard-hollow/screenshots/shot_1.png" },
+    { "path": "assets/graveyard-hollow/screenshots/shot_2.png" }
+  ],
+  "links": {
+    "website": "https://github.com/LinuxGroove/graveyard-hollow",
+    "source_code": "https://github.com/LinuxGroove/graveyard-hollow",
+    "store_page": "https://snapcraft.io/graveyard-hollow"
+  },
+  "publisher": "Ken VanDine",
+  "channel": "stable",
+  "install_flags": [],
+  "interfaces_to_connect": [
+    "wayland",
+    "joystick"
+  ],
+  "removable": true,
+  "builtin": false
+}
