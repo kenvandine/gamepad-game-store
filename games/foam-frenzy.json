@@ -1,0 +1,29 @@
+{
+  "name": "foam-frenzy",
+  "title": "Foam Frenzy",
+  "summary": "Foam dart blaster battles for up to eight friends, on one screen or many.",
+  "description": "Foam Frenzy is a fast, silly foam dart party game for 2 to 8 campers. Dash around the gym or the test lab, scoop up darts, dive out of the way and tag your friends before the clock runs out. Every dart you fire lands on the floor, so ammo is precious and anyone can grab it.\n\n- Four modes: Free-for-all, Team Battle, Capture the Flag and Dart Hoarder\n- Play on one screen with a controller each, on your local network, or online through a LinuxGroove game server\n- Fill empty spots with bots, or warm up in a guided practice round\n- Made for controllers and handhelds, fully playable with a keyboard",
+  "license": "Apache-2.0 AND CC0-1.0 AND MIT",
+  "confinement": "strict",
+  "categories": [
+    "games",
+    "party",
+    "multiplayer"
+  ],
+  "icon": "assets/foam-frenzy/icon.png",
+  "screenshots": [],
+  "links": {
+    "website": "https://github.com/LinuxGroove/foam-frenzy",
+    "source_code": "https://github.com/LinuxGroove/foam-frenzy",
+    "store_page": "https://snapcraft.io/foam-frenzy"
+  },
+  "publisher": "Ken VanDine",
+  "channel": "stable",
+  "install_flags": [],
+  "interfaces_to_connect": [
+    "wayland",
+    "joystick"
+  ],
+  "removable": true,
+  "builtin": false
+}
