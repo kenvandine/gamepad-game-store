@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-10-10T13:18:14Z",
+  "updated_at": "2026-10-11T13:47:21Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
@@ -221,8 +221,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/graveyard-hollow/icon.png",
-      "version": "2026.41.0+50.g6f0c486c",
-      "published_at": "2026-10-08T00:32:44.530192+00:00",
+      "version": "2026.42.0",
+      "published_at": "2026-10-11T02:59:27.860793+00:00",
       "install_command": "sudo snap install --channel=stable graveyard-hollow"
     },
     {
