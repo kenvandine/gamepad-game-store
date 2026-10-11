@@ -11,7 +11,23 @@
     "multiplayer"
   ],
   "icon": "assets/foam-frenzy/icon.png",
-  "screenshots": [],
+  "screenshots": [
+    {
+      "path": "assets/foam-frenzy/screenshots/shot_1.jpg"
+    },
+    {
+      "path": "assets/foam-frenzy/screenshots/shot_2.jpg"
+    },
+    {
+      "path": "assets/foam-frenzy/screenshots/shot_3.jpg"
+    },
+    {
+      "path": "assets/foam-frenzy/screenshots/shot_4.jpg"
+    },
+    {
+      "path": "assets/foam-frenzy/screenshots/shot_5.jpg"
+    }
+  ],
   "links": {
     "website": "https://github.com/LinuxGroove/foam-frenzy",
     "source_code": "https://github.com/LinuxGroove/foam-frenzy",

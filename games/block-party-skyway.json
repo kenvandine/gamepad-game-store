@@ -1,0 +1,45 @@
+{
+  "name": "block-party-skyway",
+  "title": "Block Party: Skyway",
+  "summary": "A 3D platformer in the sky. Explore every island, then race through it.",
+  "description": "Block Party: Skyway is a 3D platformer across a chain of floating islands.\nRun, jump, long jump, dive, ground pound and kick off walls to find stars\nand hidden gems, then race the courses against the clock and your own\nghost.\n\n- Adventure: explore each island at your own pace, help the islanders and\n  open the Skyway's rainbow bridges with the stars you find\n- Speedrun: every course Adventure finds is a time trial with medals, a\n  clock to the hundredth and your best run's ghost beside you\n- A calm camera that sits behind and above and turns gently, with comfort\n  settings for turn speed, field of view and a follow-behind mode\n- Made for controllers and handhelds, fully playable with a mouse and\n  keyboard",
+  "license": "Apache-2.0 AND CC0-1.0 AND MIT",
+  "confinement": "strict",
+  "categories": [
+    "games",
+    "platformer",
+    "adventure"
+  ],
+  "links": {
+    "website": "https://github.com/LinuxGroove/block-party-skyway",
+    "source_code": "https://github.com/LinuxGroove/block-party-skyway",
+    "store_page": "https://snapcraft.io/block-party-skyway"
+  },
+  "publisher": "Ken VanDine",
+  "channel": "stable",
+  "install_flags": [],
+  "interfaces_to_connect": [
+    "wayland",
+    "joystick"
+  ],
+  "removable": true,
+  "builtin": false,
+  "icon": "assets/block-party-skyway/icon.png",
+  "screenshots": [
+    {
+      "path": "assets/block-party-skyway/screenshots/shot_1.jpg"
+    },
+    {
+      "path": "assets/block-party-skyway/screenshots/shot_2.jpg"
+    },
+    {
+      "path": "assets/block-party-skyway/screenshots/shot_3.jpg"
+    },
+    {
+      "path": "assets/block-party-skyway/screenshots/shot_4.jpg"
+    },
+    {
+      "path": "assets/block-party-skyway/screenshots/shot_5.jpg"
+    }
+  ]
+}

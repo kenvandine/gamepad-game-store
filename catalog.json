@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-10-11T13:47:21Z",
+  "updated_at": "2026-10-11T21:56:50Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
@@ -56,6 +56,58 @@
       "install_command": "sudo snap install --channel=stable antsy-alien-attack-pico"
     },
     {
+      "name": "block-party-skyway",
+      "title": "Block Party: Skyway",
+      "summary": "A 3D platformer in the sky. Explore every island, then race through it.",
+      "description": "Block Party: Skyway is a 3D platformer across a chain of floating islands.\nRun, jump, long jump, dive, ground pound and kick off walls to find stars\nand hidden gems, then race the courses against the clock and your own\nghost.\n\n- Adventure: explore each island at your own pace, help the islanders and\n  open the Skyway's rainbow bridges with the stars you find\n- Speedrun: every course Adventure finds is a time trial with medals, a\n  clock to the hundredth and your best run's ghost beside you\n- A calm camera that sits behind and above and turns gently, with comfort\n  settings for turn speed, field of view and a follow-behind mode\n- Made for controllers and handhelds, fully playable with a mouse and\n  keyboard",
+      "license": "Apache-2.0 AND CC0-1.0 AND MIT",
+      "confinement": "strict",
+      "categories": [
+        "games",
+        "platformer",
+        "adventure"
+      ],
+      "links": {
+        "website": "https://github.com/LinuxGroove/block-party-skyway",
+        "source_code": "https://github.com/LinuxGroove/block-party-skyway",
+        "store_page": "https://snapcraft.io/block-party-skyway"
+      },
+      "publisher": "Ken VanDine",
+      "channel": "stable",
+      "install_flags": [],
+      "interfaces_to_connect": [
+        "wayland",
+        "joystick"
+      ],
+      "removable": true,
+      "builtin": false,
+      "icon": "assets/block-party-skyway/icon.png",
+      "screenshots": [
+        {
+          "path": "assets/block-party-skyway/screenshots/shot_1.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/block-party-skyway/screenshots/shot_1.jpg"
+        },
+        {
+          "path": "assets/block-party-skyway/screenshots/shot_2.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/block-party-skyway/screenshots/shot_2.jpg"
+        },
+        {
+          "path": "assets/block-party-skyway/screenshots/shot_3.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/block-party-skyway/screenshots/shot_3.jpg"
+        },
+        {
+          "path": "assets/block-party-skyway/screenshots/shot_4.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/block-party-skyway/screenshots/shot_4.jpg"
+        },
+        {
+          "path": "assets/block-party-skyway/screenshots/shot_5.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/block-party-skyway/screenshots/shot_5.jpg"
+        }
+      ],
+      "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/block-party-skyway/icon.png",
+      "install_command": "sudo snap install --channel=stable block-party-skyway"
+    },
+    {
       "name": "foam-frenzy",
       "title": "Foam Frenzy",
       "summary": "Foam dart blaster battles for up to eight friends, on one screen or many.",
@@ -68,7 +120,28 @@
         "multiplayer"
       ],
       "icon": "assets/foam-frenzy/icon.png",
-      "screenshots": [],
+      "screenshots": [
+        {
+          "path": "assets/foam-frenzy/screenshots/shot_1.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/foam-frenzy/screenshots/shot_1.jpg"
+        },
+        {
+          "path": "assets/foam-frenzy/screenshots/shot_2.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/foam-frenzy/screenshots/shot_2.jpg"
+        },
+        {
+          "path": "assets/foam-frenzy/screenshots/shot_3.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/foam-frenzy/screenshots/shot_3.jpg"
+        },
+        {
+          "path": "assets/foam-frenzy/screenshots/shot_4.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/foam-frenzy/screenshots/shot_4.jpg"
+        },
+        {
+          "path": "assets/foam-frenzy/screenshots/shot_5.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/foam-frenzy/screenshots/shot_5.jpg"
+        }
+      ],
       "links": {
         "website": "https://github.com/LinuxGroove/foam-frenzy",
         "source_code": "https://github.com/LinuxGroove/foam-frenzy",
@@ -84,8 +157,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/foam-frenzy/icon.png",
-      "version": "0.1.0",
-      "published_at": "2026-10-06T03:10:20.601068+00:00",
+      "version": "2026.42.0",
+      "published_at": "2026-10-11T19:25:37.876530+00:00",
       "install_command": "sudo snap install --channel=stable foam-frenzy"
     },
     {
@@ -204,6 +277,14 @@
         {
           "path": "assets/graveyard-hollow/screenshots/shot_2.png",
           "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/graveyard-hollow/screenshots/shot_2.png"
+        },
+        {
+          "path": "assets/graveyard-hollow/screenshots/shot_3.png",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/graveyard-hollow/screenshots/shot_3.png"
+        },
+        {
+          "path": "assets/graveyard-hollow/screenshots/shot_4.png",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/graveyard-hollow/screenshots/shot_4.png"
         }
       ],
       "links": {
@@ -221,8 +302,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/graveyard-hollow/icon.png",
-      "version": "2026.42.0",
-      "published_at": "2026-10-11T02:59:27.860793+00:00",
+      "version": "2026.42.1",
+      "published_at": "2026-10-11T19:14:09.250981+00:00",
       "install_command": "sudo snap install --channel=stable graveyard-hollow"
     },
     {
@@ -373,6 +454,58 @@
       "version": "1.5",
       "published_at": "2025-12-03T15:13:42.727485+00:00",
       "install_command": "sudo snap install --channel=stable supertuxkart"
+    },
+    {
+      "name": "verdigris-protocol",
+      "title": "Verdigris Protocol",
+      "summary": "A first person horror shooter against an alien growth on a space station.",
+      "description": "The alien isn't aboard Marigold Station. It's growing through it.\n\nYou're the night shift engineer on a farming station where something\ncame up through the soil in Hydroponics. Now a red, wet growth called\nthe Bloom spreads through the decks, room by room, taking the crew as\nit goes. Burn it back with a plasma cutter, cut the power it feeds on,\nseal doors, light flares, and dig out the Heart that roots each deck.\n\n- Eight decks round a ring, each with its own creatures, weapons and\n  a reason to save it; the ones you leave are lost to the Bloom\n- The growth spreads in real time: through open doors, along power\n  lines, into the dark\n- Gore, dismemberment and a Gore setting (Full, Less or Off) that can\n  be locked with a code\n- Comfort settings: no head bob or view roll by default\n- Shift mode: a new station every night, with online boards\n- Plays fully offline, with a keyboard and mouse or a controller",
+      "license": "Apache-2.0 AND CC0-1.0 AND MIT AND OFL-1.1",
+      "confinement": "strict",
+      "categories": [
+        "games",
+        "action",
+        "horror"
+      ],
+      "links": {
+        "website": "https://github.com/LinuxGroove/verdigris-protocol",
+        "source_code": "https://github.com/LinuxGroove/verdigris-protocol",
+        "store_page": "https://snapcraft.io/verdigris-protocol"
+      },
+      "publisher": "Ken VanDine",
+      "channel": "stable",
+      "install_flags": [],
+      "interfaces_to_connect": [
+        "wayland",
+        "joystick"
+      ],
+      "removable": true,
+      "builtin": false,
+      "icon": "assets/verdigris-protocol/icon.png",
+      "screenshots": [
+        {
+          "path": "assets/verdigris-protocol/screenshots/shot_1.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/verdigris-protocol/screenshots/shot_1.jpg"
+        },
+        {
+          "path": "assets/verdigris-protocol/screenshots/shot_2.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/verdigris-protocol/screenshots/shot_2.jpg"
+        },
+        {
+          "path": "assets/verdigris-protocol/screenshots/shot_3.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/verdigris-protocol/screenshots/shot_3.jpg"
+        },
+        {
+          "path": "assets/verdigris-protocol/screenshots/shot_4.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/verdigris-protocol/screenshots/shot_4.jpg"
+        },
+        {
+          "path": "assets/verdigris-protocol/screenshots/shot_5.jpg",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/verdigris-protocol/screenshots/shot_5.jpg"
+        }
+      ],
+      "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/verdigris-protocol/icon.png",
+      "install_command": "sudo snap install --channel=stable verdigris-protocol"
     }
   ]
 }

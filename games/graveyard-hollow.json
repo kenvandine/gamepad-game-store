@@ -12,8 +12,18 @@
   ],
   "icon": "assets/graveyard-hollow/icon.png",
   "screenshots": [
-    { "path": "assets/graveyard-hollow/screenshots/shot_1.png" },
-    { "path": "assets/graveyard-hollow/screenshots/shot_2.png" }
+    {
+      "path": "assets/graveyard-hollow/screenshots/shot_1.png"
+    },
+    {
+      "path": "assets/graveyard-hollow/screenshots/shot_2.png"
+    },
+    {
+      "path": "assets/graveyard-hollow/screenshots/shot_3.png"
+    },
+    {
+      "path": "assets/graveyard-hollow/screenshots/shot_4.png"
+    }
   ],
   "links": {
     "website": "https://github.com/LinuxGroove/graveyard-hollow",

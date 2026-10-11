@@ -1,0 +1,45 @@
+{
+  "name": "verdigris-protocol",
+  "title": "Verdigris Protocol",
+  "summary": "A first person horror shooter against an alien growth on a space station.",
+  "description": "The alien isn't aboard Marigold Station. It's growing through it.\n\nYou're the night shift engineer on a farming station where something\ncame up through the soil in Hydroponics. Now a red, wet growth called\nthe Bloom spreads through the decks, room by room, taking the crew as\nit goes. Burn it back with a plasma cutter, cut the power it feeds on,\nseal doors, light flares, and dig out the Heart that roots each deck.\n\n- Eight decks round a ring, each with its own creatures, weapons and\n  a reason to save it; the ones you leave are lost to the Bloom\n- The growth spreads in real time: through open doors, along power\n  lines, into the dark\n- Gore, dismemberment and a Gore setting (Full, Less or Off) that can\n  be locked with a code\n- Comfort settings: no head bob or view roll by default\n- Shift mode: a new station every night, with online boards\n- Plays fully offline, with a keyboard and mouse or a controller",
+  "license": "Apache-2.0 AND CC0-1.0 AND MIT AND OFL-1.1",
+  "confinement": "strict",
+  "categories": [
+    "games",
+    "action",
+    "horror"
+  ],
+  "links": {
+    "website": "https://github.com/LinuxGroove/verdigris-protocol",
+    "source_code": "https://github.com/LinuxGroove/verdigris-protocol",
+    "store_page": "https://snapcraft.io/verdigris-protocol"
+  },
+  "publisher": "Ken VanDine",
+  "channel": "stable",
+  "install_flags": [],
+  "interfaces_to_connect": [
+    "wayland",
+    "joystick"
+  ],
+  "removable": true,
+  "builtin": false,
+  "icon": "assets/verdigris-protocol/icon.png",
+  "screenshots": [
+    {
+      "path": "assets/verdigris-protocol/screenshots/shot_1.jpg"
+    },
+    {
+      "path": "assets/verdigris-protocol/screenshots/shot_2.jpg"
+    },
+    {
+      "path": "assets/verdigris-protocol/screenshots/shot_3.jpg"
+    },
+    {
+      "path": "assets/verdigris-protocol/screenshots/shot_4.jpg"
+    },
+    {
+      "path": "assets/verdigris-protocol/screenshots/shot_5.jpg"
+    }
+  ]
+}
