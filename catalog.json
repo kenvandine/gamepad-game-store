@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-10-13T14:49:00Z",
+  "updated_at": "2026-10-14T12:39:59Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
@@ -105,8 +105,8 @@
         }
       ],
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/block-party-skyway/icon.png",
-      "version": "2026.42.0",
-      "published_at": "2026-10-12T00:15:58.394878+00:00",
+      "version": "2026.42.1",
+      "published_at": "2026-10-13T18:20:55.377219+00:00",
       "install_command": "sudo snap install --channel=stable block-party-skyway"
     },
     {
@@ -159,8 +159,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/foam-frenzy/icon.png",
-      "version": "2026.42.0",
-      "published_at": "2026-10-11T19:25:37.876530+00:00",
+      "version": "2026.42.1",
+      "published_at": "2026-10-13T18:21:05.646113+00:00",
       "install_command": "sudo snap install --channel=stable foam-frenzy"
     },
     {
@@ -304,8 +304,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/graveyard-hollow/icon.png",
-      "version": "2026.42.1",
-      "published_at": "2026-10-11T19:14:09.250981+00:00",
+      "version": "2026.42.2",
+      "published_at": "2026-10-13T18:20:38.954503+00:00",
       "install_command": "sudo snap install --channel=stable graveyard-hollow"
     },
     {
@@ -507,8 +507,8 @@
         }
       ],
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/verdigris-protocol/icon.png",
-      "version": "2026.42.0",
-      "published_at": "2026-10-12T00:06:50.686878+00:00",
+      "version": "2026.42.2",
+      "published_at": "2026-10-13T18:21:22.446425+00:00",
       "install_command": "sudo snap install --channel=stable verdigris-protocol"
     }
   ]
