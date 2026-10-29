@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-10-28T13:50:34Z",
+  "updated_at": "2026-10-29T13:57:11Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
@@ -51,8 +51,6 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/antsy-alien-attack-pico/icon.png",
-      "version": "1.23.15723",
-      "published_at": "2023-06-06T22:50:35.804739+00:00",
       "install_command": "sudo snap install --channel=stable antsy-alien-attack-pico"
     },
     {
@@ -507,6 +505,8 @@
         }
       ],
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/verdigris-protocol/icon.png",
+      "version": "2026.42.2",
+      "published_at": "2026-10-13T18:21:22.446425+00:00",
       "install_command": "sudo snap install --channel=stable verdigris-protocol"
     }
   ]
