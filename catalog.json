@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-11-12T15:50:54Z",
+  "updated_at": "2026-11-13T15:07:46Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
@@ -51,6 +51,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/antsy-alien-attack-pico/icon.png",
+      "version": "1.23.15723",
+      "published_at": "2023-06-06T22:50:35.804739+00:00",
       "install_command": "sudo snap install --channel=stable antsy-alien-attack-pico"
     },
     {
@@ -103,6 +105,8 @@
         }
       ],
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/block-party-skyway/icon.png",
+      "version": "2026.42.1",
+      "published_at": "2026-10-13T18:20:55.377219+00:00",
       "install_command": "sudo snap install --channel=stable block-party-skyway"
     },
     {
@@ -155,6 +159,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/foam-frenzy/icon.png",
+      "version": "2026.42.2",
+      "published_at": "2026-10-16T01:24:28.220549+00:00",
       "install_command": "sudo snap install --channel=stable foam-frenzy"
     },
     {
@@ -246,6 +252,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/gamepad-minecraft/icon.png",
+      "version": "0.2.1",
+      "published_at": "2026-09-22T14:50:50.400590+00:00",
       "install_command": "sudo snap install --channel=stable gamepad-minecraft"
     },
     {
@@ -294,6 +302,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/graveyard-hollow/icon.png",
+      "version": "2026.42.3",
+      "published_at": "2026-10-16T01:14:40.918703+00:00",
       "install_command": "sudo snap install --channel=stable graveyard-hollow"
     },
     {
@@ -341,6 +351,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/steam/icon.png",
+      "version": "1.0.0.87",
+      "published_at": "2026-10-07T19:52:19.982893+00:00",
       "install_command": "sudo snap install --channel=stable steam"
     },
     {
@@ -489,6 +501,8 @@
         }
       ],
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/verdigris-protocol/icon.png",
+      "version": "2026.42.2",
+      "published_at": "2026-10-13T18:21:22.446425+00:00",
       "install_command": "sudo snap install --channel=stable verdigris-protocol"
     }
   ]
