@@ -1,0 +1,30 @@
+{
+  "name": "epic-games-launcher",
+  "title": "Epic Games Launcher",
+  "summary": "Epic Games Launcher for Linux",
+  "description": "The Epic Games Launcher lets you browse, buy, install and play games from the Epic Games Store.\n\nThis is an unofficial snap that repackages the official Linux deb package published at https://launcher.epicgames.com/. Epic, Epic Games and the Epic Games Launcher are trademarks of Epic Games, Inc.",
+  "license": "Proprietary",
+  "confinement": "strict",
+  "categories": [
+    "games",
+    "launcher"
+  ],
+  "icon": "assets/epic-games-launcher/icon.png",
+  "screenshots": [
+    { "path": "assets/epic-games-launcher/screenshots/shot_1.png" },
+    { "path": "assets/epic-games-launcher/screenshots/shot_2.png" }
+  ],
+  "links": {
+    "website": "https://launcher.epicgames.com/",
+    "store_page": "https://snapcraft.io/epic-games-launcher"
+  },
+  "publisher": "Ken VanDine",
+  "channel": "stable",
+  "install_flags": [],
+  "interfaces_to_connect": [
+    "wayland",
+    "joystick"
+  ],
+  "removable": true,
+  "builtin": false
+}

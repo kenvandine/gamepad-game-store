@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-11-18T16:12:50Z",
+  "updated_at": "2026-11-18T16:50:00Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
@@ -108,6 +108,46 @@
       "version": "2026.42.1",
       "published_at": "2026-10-13T18:20:55.377219+00:00",
       "install_command": "sudo snap install --channel=stable block-party-skyway"
+    },
+    {
+      "name": "epic-games-launcher",
+      "title": "Epic Games Launcher",
+      "summary": "Epic Games Launcher for Linux",
+      "description": "The Epic Games Launcher lets you browse, buy, install and play games from the Epic Games Store.\n\nThis is an unofficial snap that repackages the official Linux deb package published at https://launcher.epicgames.com/. Epic, Epic Games and the Epic Games Launcher are trademarks of Epic Games, Inc.",
+      "license": "Proprietary",
+      "confinement": "strict",
+      "categories": [
+        "games",
+        "launcher"
+      ],
+      "icon": "assets/epic-games-launcher/icon.png",
+      "screenshots": [
+        {
+          "path": "assets/epic-games-launcher/screenshots/shot_1.png",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/epic-games-launcher/screenshots/shot_1.png"
+        },
+        {
+          "path": "assets/epic-games-launcher/screenshots/shot_2.png",
+          "url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/epic-games-launcher/screenshots/shot_2.png"
+        }
+      ],
+      "links": {
+        "website": "https://launcher.epicgames.com/",
+        "store_page": "https://snapcraft.io/epic-games-launcher"
+      },
+      "publisher": "Ken VanDine",
+      "channel": "stable",
+      "install_flags": [],
+      "interfaces_to_connect": [
+        "wayland",
+        "joystick"
+      ],
+      "removable": true,
+      "builtin": false,
+      "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/epic-games-launcher/icon.png",
+      "version": "0.115.0+gd6d2ef8",
+      "published_at": "2026-11-16T14:10:34.624349+00:00",
+      "install_command": "sudo snap install --channel=stable epic-games-launcher"
     },
     {
       "name": "foam-frenzy",

@@ -27,6 +27,7 @@ from the Snap Store's public API.
 |------|-------|---------|
 | `antsy-alien-attack-pico` | Antsy Alien Attack Pico | CC-BY-NC-SA-4.0 OR MIT |
 | `block-party-skyway` | Block Party: Skyway | Apache-2.0 AND CC0-1.0 AND MIT |
+| `epic-games-launcher` | Epic Games Launcher | Proprietary |
 | `foam-frenzy` | Foam Frenzy | Apache-2.0 AND CC0-1.0 AND MIT |
 | `gamepad-2048` | 2048 - Gamepad | GPL-3.0 |
 | `gamepad-minecraft` | Minecraft - Gamepad | GPL-3.0 |
