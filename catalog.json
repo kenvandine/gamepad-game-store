@@ -3,7 +3,7 @@
   "store_name": "Ubuntu Store",
   "store_description": "Curated, gamepad-shell-tested game snaps for handheld devices running gamepad-shell.",
   "base_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main",
-  "updated_at": "2026-11-24T18:40:14Z",
+  "updated_at": "2026-11-25T17:49:28Z",
   "games": [
     {
       "name": "antsy-alien-attack-pico",
@@ -145,8 +145,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/epic-games-launcher/icon.png",
-      "version": "0.120.0+gc4bf6af",
-      "published_at": "2026-11-21T02:25:34.112564+00:00",
+      "version": "0.121.0+g81137b1",
+      "published_at": "2026-11-24T21:42:16.772558+00:00",
       "install_command": "sudo snap install --channel=stable epic-games-launcher"
     },
     {
@@ -199,6 +199,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/foam-frenzy/icon.png",
+      "version": "2026.42.2",
+      "published_at": "2026-10-16T01:24:28.220549+00:00",
       "install_command": "sudo snap install --channel=stable foam-frenzy"
     },
     {
@@ -391,6 +393,8 @@
       "removable": true,
       "builtin": false,
       "icon_url": "https://raw.githubusercontent.com/kenvandine/gamepad-game-store/main/assets/steam/icon.png",
+      "version": "1.0.0.87",
+      "published_at": "2026-11-20T16:04:30.558196+00:00",
       "install_command": "sudo snap install --channel=stable steam"
     },
     {
